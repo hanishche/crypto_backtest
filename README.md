@@ -1,6 +1,8 @@
 # crypto_backtest
-Extracting crypto data from crypto compare and uploading it to MySQL DB. Using the data from MySQL DB, Backtest different models created using technical indicators like MACD,EMA,RSI and combinations of indicators.
-While doing live trading it is possible that every crypto coin has different number of datapoints to look at, which can reduce the performance of indicators leading to more losses.
+1. Extracting crypto data from crypto compare and uploading it to MySQL DB. Using the data from MySQL DB, Backtest different models created using technical indicators like MACD,EMA,RSI and combinations of indicators.
+
+2. While doing live trading it is possible that every crypto coin has different number of datapoints to look at, which can reduce the performance of indicators leading to more losses.
+
 For example: For MANA coin at a give point of time from wazirx we might be having only last 2 hours of data instead of all 24 hours data(like data available for backtest).Hence i have created my own model which gonna compare the last 40 mins vs 150 mins vs 200 mins vs 300 mins at any given point of time for a coin. 
 This repository consists of mainly 5 folders
 1) USD  -- Contains Backtested data of Cryptos with USD currency
