@@ -10,5 +10,6 @@ This repository consists of mainly 5 folders
 3) Tableau files -- Tableau Dashboards
 4) Indicators -- RSI,MACD, SToch RSI
 
+### Use only % Win % excel files for tableau purpose
 
 6) Python scripts of models.![Crypto_flowchart](https://user-images.githubusercontent.com/32518059/153922122-270e09d5-285b-4132-b69e-505ab9ad1a9e.png)
